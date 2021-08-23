@@ -5,6 +5,7 @@ export default function Results(props) {
   if (props.results) {
     return (
       <div className="Results">
+        {/* below is the word searched for */}
         <h2>{props.results.word}</h2>
         {/* loop through meanings from results */}
         {props.results.meanings.map(function (meaning, index) {
@@ -15,7 +16,6 @@ export default function Results(props) {
             </div>
           );
         })}
-        }
       </div>
     );
   } else {
