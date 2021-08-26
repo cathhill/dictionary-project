@@ -1,14 +1,22 @@
+.body {
+  background: rgb(197, 196, 196);
+}
+
+a {
+  color: #9670f4;
+}
+
+.App-header {
+  margin: 30px 0;
+}
+
 .App-logo {
   max-width: 100px;
-  margin: 0 auto;
   display: block;
+  margin: 0 auto;
 }
 
 .App-footer {
   text-align: center;
   margin: 30px 0;
-}
-
-.App {
-  background: rgb(197, 196, 196);
 }
